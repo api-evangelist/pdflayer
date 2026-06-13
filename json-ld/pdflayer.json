@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebAPI",
+  "@id": "https://pdflayer.com",
+  "name": "pdflayer API",
+  "description": "pdflayer is a PDF generation REST API by APILayer for converting HTML to PDF and capturing web pages as PDFs. It supports rendering from standard HTTP URLs or raw HTML code, with extensive customization options including custom page sizes, margins, headers, footers, watermarks, and 256-bit encryption.",
+  "url": "https://pdflayer.com",
+  "termsOfService": "https://pdflayer.com/terms",
+  "documentation": "https://pdflayer.com/documentation",
+  "provider": {
+    "@type": "Organization",
+    "name": "APILayer",
+    "url": "https://apilayer.com",
+    "sameAs": [
+      "https://github.com/apilayer",
+      "https://twitter.com/apilayer",
+      "https://www.linkedin.com/company/apilayer/"
+    ]
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://pdflayer.com/pricing"
+  },
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceUrl": "https://api.pdflayer.com/api/convert",
+    "serviceType": "REST API"
+  },
+  "keywords": [
+    "PDF",
+    "HTML to PDF",
+    "Document Generation",
+    "Web Capture",
+    "PDF Conversion",
+    "APILayer"
+  ],
+  "category": "Document Generation",
+  "sameAs": [
+    "https://github.com/apilayer/pdflayer-API"
+  ]
+}
