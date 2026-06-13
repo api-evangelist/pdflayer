@@ -1,0 +1,49 @@
+name: pdflayer Rate Limits
+description: Rate limit policies for the pdflayer HTML to PDF conversion API.
+url: https://pdflayer.com/faq
+limits:
+  - plan: Free
+    requests_per_month: 100
+    overage_allowed: false
+    overage_price_per_request: null
+    notes: No overage allowed on the free plan; requests stop when quota is exhausted.
+
+  - plan: Basic
+    requests_per_month: 1000
+    overage_allowed: true
+    overage_price_per_request: 0.03996
+    overage_currency: USD
+    notes: Overage charges apply automatically to ensure service continuity beyond the monthly quota.
+
+  - plan: Professional
+    requests_per_month: 10000
+    overage_allowed: true
+    overage_price_per_request: 0.015996
+    overage_currency: USD
+    notes: Overage charges apply automatically to ensure service continuity beyond the monthly quota.
+
+  - plan: Enterprise
+    requests_per_month: 100000
+    overage_allowed: true
+    overage_price_per_request: 0.0047996
+    overage_currency: USD
+    notes: Overage charges apply automatically to ensure service continuity beyond the monthly quota.
+
+policies:
+  - name: Monthly Reset
+    description: API request quotas reset at the start of each billing month.
+  - name: Usage Notifications
+    description: Automated email alerts are sent at 75%, 90%, and 100% of monthly quota consumption.
+  - name: Overage Continuity
+    description: When quota is exceeded on paid plans, the service continues operating with per-request overage fees rather than hard-stopping.
+  - name: Dashboard Monitoring
+    description: Real-time usage statistics are available in the user dashboard for monitoring consumption.
+
+uptime:
+  target_percent: 99.9
+  notes: APILayer monitors the API around the clock and provides uptime reports upon request.
+
+protocols:
+  - HTTP GET
+  - HTTP POST
+encryption: 256-bit HTTPS

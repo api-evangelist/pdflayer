@@ -1,0 +1,83 @@
+name: pdflayer FinOps
+description: Financial operations guidance for managing costs when using the pdflayer HTML to PDF API.
+url: https://pdflayer.com/pricing
+
+cost_model:
+  type: subscription_with_overage
+  billing_cycles:
+    - monthly
+    - annual
+  currency: USD
+  notes: >
+    pdflayer charges a flat monthly (or annual) subscription fee that includes a set number of API
+    requests. When the included quota is exceeded on paid plans, per-request overage fees apply
+    automatically to prevent service interruption. Annual billing provides discounts of 10-15%
+    depending on the plan tier.
+
+plans_summary:
+  - plan: Free
+    monthly_cost: 0.00
+    included_requests: 100
+    cost_per_request_included: 0.00
+    cost_per_overage_request: null
+
+  - plan: Basic
+    monthly_cost: 9.99
+    annual_cost: 107.99
+    included_requests: 1000
+    cost_per_request_included: 0.00999
+    cost_per_overage_request: 0.03996
+
+  - plan: Professional
+    monthly_cost: 39.99
+    annual_cost: 419.99
+    included_requests: 10000
+    cost_per_request_included: 0.003999
+    cost_per_overage_request: 0.015996
+
+  - plan: Enterprise
+    monthly_cost: 119.99
+    annual_cost: 1223.99
+    included_requests: 100000
+    cost_per_request_included: 0.0011999
+    cost_per_overage_request: 0.0047996
+
+optimization_strategies:
+  - name: Choose Annual Billing
+    description: >
+      Switching from monthly to annual billing saves 10% (Basic), 12.5% (Professional),
+      or 15% (Enterprise) on subscription costs.
+
+  - name: Monitor Usage Dashboard
+    description: >
+      Use the real-time dashboard to track consumption. Email alerts fire at 75%, 90%,
+      and 100% of quota so you can upgrade before accumulating significant overage charges.
+
+  - name: Right-Size Plan Before Overage Accumulates
+    description: >
+      Overage rates on the Basic plan ($0.03996/request) are more expensive per-request
+      than upgrading to Professional ($0.003999 included cost per request). If consistently
+      exceeding quota, upgrading tiers is more cost-effective.
+
+  - name: Batch PDF Generation
+    description: >
+      Where possible, batch or queue PDF generation requests during off-peak periods rather
+      than generating on-demand to better predict and control monthly request consumption.
+
+  - name: Cache Generated PDFs
+    description: >
+      Store generated PDFs on a CDN or object storage layer and reuse them for identical
+      requests rather than re-invoking the API, reducing total request volume.
+
+  - name: Use POST for Large Payloads
+    description: >
+      Use HTTP POST for large HTML payloads to avoid URL length limits and ensure reliable
+      request handling, which reduces failed/retry requests that count against quota.
+
+break_even_analysis:
+  - description: >
+      A Basic plan user generating more than ~1,251 requests/month pays less upgrading
+      to Professional ($39.99) than paying overage on Basic ($9.99 + $0.03996 * 751 overage = $39.98).
+  - description: >
+      A Professional plan user generating more than ~12,503 requests/month pays less upgrading
+      to Enterprise ($119.99) than paying overage on Professional ($39.99 + $0.015996 * 2,503 = $80.03).

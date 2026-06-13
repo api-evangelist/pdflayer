@@ -1,0 +1,107 @@
+name: pdflayer Plans and Pricing
+description: Pricing plans for the pdflayer HTML to PDF conversion API, offered by APILayer.
+url: https://pdflayer.com/pricing
+plans:
+  - name: Free
+    description: Entry-level plan for developers evaluating the pdflayer API.
+    url: https://pdflayer.com/pricing
+    price:
+      monthly: 0.00
+      annual: 0.00
+      currency: USD
+    limits:
+      requests_per_month: 100
+    overage:
+      price_per_request: 0.00
+      currency: USD
+    support:
+      - type: None
+    features:
+      - 256-bit HTTPS encryption
+      - HTML and URL to PDF conversion
+      - GET and POST request methods
+
+  - name: Basic
+    description: Starter paid plan suitable for small applications and low-volume PDF generation.
+    url: https://pdflayer.com/pricing
+    price:
+      monthly: 9.99
+      annual: 107.99
+      currency: USD
+      annual_discount_percent: 10
+    limits:
+      requests_per_month: 1000
+    overage:
+      price_per_request: 0.03996
+      currency: USD
+    support:
+      - type: Standard
+    features:
+      - 256-bit HTTPS encryption
+      - HTML and URL to PDF conversion
+      - Document configuration parameters
+      - Full customization toolkit
+      - Custom headers, footers, watermarks
+      - Page size and margin control
+      - GET and POST request methods
+      - Usage alerts at 75%, 90%, and 100% of quota
+      - Real-time dashboard statistics
+
+  - name: Professional
+    description: Most popular plan for production applications requiring higher throughput.
+    url: https://pdflayer.com/pricing
+    price:
+      monthly: 39.99
+      annual: 419.99
+      currency: USD
+      annual_discount_percent: 12.5
+    limits:
+      requests_per_month: 10000
+    overage:
+      price_per_request: 0.015996
+      currency: USD
+    support:
+      - type: Standard
+    features:
+      - 256-bit HTTPS encryption
+      - HTML and URL to PDF conversion
+      - Document configuration parameters
+      - Full customization toolkit
+      - Custom headers, footers, watermarks
+      - Page size and margin control
+      - GET and POST request methods
+      - Usage alerts at 75%, 90%, and 100% of quota
+      - Real-time dashboard statistics
+
+  - name: Enterprise
+    description: High-volume plan for enterprise applications with large PDF generation workloads.
+    url: https://pdflayer.com/pricing
+    price:
+      monthly: 119.99
+      annual: 1223.99
+      currency: USD
+      annual_discount_percent: 15
+    limits:
+      requests_per_month: 100000
+    overage:
+      price_per_request: 0.0047996
+      currency: USD
+    support:
+      - type: Standard
+    addons:
+      - name: Platinum Support
+        description: Dedicated account management, priority bug fixes, and access to exclusive support resources.
+        price_annual_range:
+          min: 479.88
+          max: 719.88
+          currency: USD
+    features:
+      - 256-bit HTTPS encryption
+      - HTML and URL to PDF conversion
+      - Document configuration parameters
+      - Full customization toolkit
+      - Custom headers, footers, watermarks
+      - Page size and margin control
+      - GET and POST request methods
+      - Usage alerts at 75%, 90%, and 100% of quota
+      - Real-time dashboard statistics
