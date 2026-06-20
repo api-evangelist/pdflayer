@@ -7,7 +7,7 @@ description: >
   watermarks, and 256-bit encryption. The lightweight RESTful API supports both GET and POST
   methods and is powered by high-throughput infrastructure capable of processing thousands of
   requests simultaneously.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/pdflayer/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -26,7 +26,7 @@ apis:
       REST API for converting HTML content and web page URLs to PDF documents with support
       for custom page sizes, margins, headers, footers, watermarks, page numbering, and
       256-bit HTTPS encryption.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://pdflayer.com
     baseURL: https://api.pdflayer.com/api/convert
     tags:
