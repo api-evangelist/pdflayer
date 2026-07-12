@@ -44,6 +44,8 @@ apis:
       - type: GettingStarted
         url: https://docs.apilayer.com/pdflayer/docs/getting-started
 common:
+  - type: DomainSecurity
+    url: security/pdflayer-domain-security.yml
   - type: Website
     url: https://pdflayer.com
   - type: Documentation
