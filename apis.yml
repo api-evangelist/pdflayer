@@ -7,7 +7,19 @@ description: >
   watermarks, and 256-bit encryption. The lightweight RESTful API supports both GET and POST
   methods and is powered by high-throughput infrastructure capable of processing thousands of
   requests simultaneously.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pdflayer.png
 url: https://raw.githubusercontent.com/api-evangelist/pdflayer/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
