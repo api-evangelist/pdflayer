@@ -7,6 +7,18 @@ description: >
   watermarks, and 256-bit encryption. The lightweight RESTful API supports both GET and POST
   methods and is powered by high-throughput infrastructure capable of processing thousands of
   requests simultaneously.
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: true
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - pricing
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
@@ -56,6 +68,8 @@ apis:
       - type: GettingStarted
         url: https://docs.apilayer.com/pdflayer/docs/getting-started
 common:
+  - type: IssueTracker
+    url: https://github.com/apilayer/pdflayer-API/issues
   - type: DomainSecurity
     url: security/pdflayer-domain-security.yml
   - type: Website
