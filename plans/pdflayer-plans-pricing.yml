@@ -109,3 +109,34 @@ plans:
       - GET and POST request methods
       - Usage alerts at 75%, 90%, and 100% of quota
       - Real-time dashboard statistics
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - metered
+  units: []
+  plans:
+  - name: Free
+    access: other
+    model: metered
+    model_how: derived
+    units: []
+    periods: []
+  - name: Basic
+    access: other
+    model: metered
+    model_how: derived
+    units: []
+    periods: []
+  - name: Professional
+    access: other
+    model: metered
+    model_how: derived
+    units: []
+    periods: []
+  - name: Enterprise
+    access: other
+    model: metered
+    model_how: derived
+    units: []
+    periods: []
