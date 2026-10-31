@@ -64,28 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-pdflayer is a PDF generation REST API by APILayer for converting HTML to PDF and capturing web pages as PDFs. It supports rendering from standard HTTP URLs or raw HTML code, with extensive customization options including custom page sizes, margins, headers, footers, watermarks, and 256-bit encryption.
+pdflayer is a PDF generation REST API by APILayer for converting HTML to PDF and capturing web pages as PDFs. It supports rendering from standard HTTP URLs or raw HTML code, with extensive customization options including custom page sizes, margins, headers, footers, watermarks, and 256-bit encryption. The lightweight RESTful API supports both GET and POST methods and is powered by high-throughput infrastructure capable of processing thousands of requests simultaneously.
 
-## Links
+**Areas:** PDF · HTML to PDF · Document Generation · Web Capture · APILayer · PDF Conversion
 
-- **Website**: https://pdflayer.com
-- **Documentation**: https://pdflayer.com/documentation
-- **Pricing**: https://pdflayer.com/pricing
-- **Status Page**: https://pdflayer.com/api-status
-- **Blog**: https://blog.apilayer.com/
-- **GitHub**: https://github.com/apilayer/pdflayer-API
-- **LinkedIn**: https://www.linkedin.com/company/apilayer/
-- **X**: https://twitter.com/apilayer/
+## pdflayer on APIs.io
 
-## APIs.json
+Everything profiled for pdflayer is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pdflayer/](https://apis.io/providers/pdflayer/)** — or go straight to one of the APIs or properties below.
 
-This repository contains an APIs.json 0.19 profile for pdflayer, maintained by [API Evangelist](https://apievangelist.com).
+### APIs (1)
 
-- [apis.yml](apis.yml) — root APIs.json index
-- [plans/pdflayer-plans-pricing.yml](plans/pdflayer-plans-pricing.yml) — pricing plan details
-- [rate-limits/pdflayer-rate-limits.yml](rate-limits/pdflayer-rate-limits.yml) — rate limit policies
-- [finops/pdflayer-finops.yml](finops/pdflayer-finops.yml) — FinOps guidance and cost optimization
+- [pdflayer API](https://apis.io/apis/pdflayer/pdflayer-api/) — REST API for converting HTML content and web page URLs to PDF documents with support for custom page sizes, margins, headers, footers, watermarks, page…
 
-## Maintainer
+### Published properties
 
-**Kin Lane** — kin@apievangelist.com
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Pdflayer Domain Security](https://apis.io/security/pdflayer/pdflayer-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Pdflayer Plans Pricing](https://apis.io/plans/pdflayer/pdflayer-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Pdflayer Rate Limits](https://apis.io/rate-limits/pdflayer/pdflayer-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Pdflayer Finops](https://apis.io/finops/pdflayer/pdflayer-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pdflayer.com)
+- [Documentation](https://pdflayer.com/documentation)
+- [Pricing](https://pdflayer.com/pricing)
+- [Blog](https://blog.apilayer.com/)
+- [Status](https://pdflayer.com/api-status)
+
+## API Evangelist rating
+
+**Kin Score 23.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 24.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 22.6 |
+| Access clarity | 18.4 |
+
+**Agent readiness 13.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pdflayer/](https://apis.io/providers/pdflayer/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for pdflayer: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pdflayer/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
